@@ -21,45 +21,66 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""_________________________________
+helpMessage ="""
 
-Bot Publik INSAN MUCHTADI.S v 1.2
-==========BotMenu===========
+==============================
+BOT PUBLIC KANEKI UPDATE TO V2
+==============================
+♛ Apakah (seperti kerang ajaib)
+♛ kedapkedip = coba aja
+♛ Dosa @(by tag) = Buat lucu2an
+♛ Pahala @(by tag) = Buat lucu2an
+♛ Steal dp @(by tag) = meliahat dp
+♛ Steal home @(by tag) = melihat home
+♛ /say = teks ke suara
+♛ /set > /tes Untuk Cek Sider
+♛ /tagall = Tag semua member
+♛ /tid = translate ing > ind
+♛ /ten = translate ind > ing
+♛ /gcreator = Menunjukkan pembuat grup
+♛ /ginfo = Info grup
+♛ /cancel = Membatalkan semua undanganan
+♛ /ourl = Invite by link on
+♛ /curl = Invite by link off
+♛ /help = Menampilkan keyword
+♛ /keluar = Bot meninggalkan grup
+♛ /musik <penyanyi> <judul>
 
-Apakah (seperti kerang ajaib)
-kedapkedip = coba aja
-Dosa @(by tag) = Buat lucu2an
-Pahala @(by tag) = Buat lucu2an
-Steal dp @(by tag) = meliahat dp
-Steal home @(by tag) = melihat home
-/say = teks ke suara
-/set > /tes Untuk Cek Sider
-/tagall = Tag semua member
-/tid = translate ing > ind
-/ten = translate ind > ing
-/gcreator = Menunjukkan pembuat grup
-/ginfo = Info grup
-/cancel = Membatalkan semua undanganan
-/ourl = Invite by link on
-/curl = Invite by link off
-/help = Menampilkan keyword
-/keluar = Bot meninggalkan grup
-/musik <penyanyi> <judul>
+====================================
+COMMAND FOR ADMIN
+====================================
+回 Set Group
+回 Kick
+回 Nk @
+回 Invite
+回 Cn
+回 Cancl on/off
+回 Gr on/off
+回 Joinn on/off
+回 K on
+回 List Group
+回 Gbc
+回 Cbc
+回 Kuy Join
+回 Cleanse
+回 Killban
+回 Ban
+回 Unban
+回 Clear
+回 Up
 
-==========BotCreator==========
 
-Suport By:>>>>>INSAN.M,S<<<<<<
-
-==>"Instagram.com/insan.m.s014"<==
-_________________________________
+====================================
+CREATOR ROBOT line.me/ti/p/@enr7503k
+====================================
 """
 
 
 KAC=[cl]
 mid = cl.getProfile().mid
 
-Bots=[mid,"u7eacf1df769225a00ec981cbd5830e23"]
-admin=["ub76a0153a283da9a1443dfb043181335"]
+Bots=[mid,"uc77fd25b59f6e563d84f1334f3fed10b"]
+admin=["uc77fd25b59f6e563d84f1334f3fed10b"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -124,7 +145,7 @@ def autolike():
         if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
           try:    
             cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-	    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"AutoLike by Aan jutawan\n\ninstagram.com/Alrahmanto_selebgram")
+	    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto like by line.me/ti/p/@enr7503k")
             print "Like"
           except:
             pass
